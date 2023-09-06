@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Primeiro Programa em JS</title>
+  <style>
+      body {
+          background-color: rgb(240, 239, 239);
+          color: black;
+          font: normal 15pt bolder;
+      }
+      h1 {
+          font: normal 20pt bolder;
+          color: #3399cc8e;
+      }
+  </style>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>Agora sim, estou livre de maldição!</p>
+     
+  <script>
+      window.alert('Deixe seu feedback. É importante para meu desenvolvimento.')
+      var nome = window.prompt('Qual seu nome?')
+      var nota = window.prompt('De 0 a 10, como estou me saindo?')
+
+      document.write(`Usuário: ${nome}<br>`)
+      document.write(`Nota avaliativa: ${nota}<br>`)
+      document.write(`<p>Aqui estão algumas curiosidades do seu nome.</p>`)
+      document.write (`Seu nome tem ${nome.length} de letras.</p>`)    
+
+  
+  </script>
+</body>
+</html>
